@@ -46,6 +46,8 @@ void intbMM() {
 }
 
 void arrMatMult() {
+    // Variable length arrays aren't allowed! 2-dim arrays will not work...
+    // [G++ -Pedantic]: ISO C++ forbids variable length array 'mat1'
 }
 
 
@@ -71,7 +73,7 @@ int main() {
     
     //intbMM();
     
-    arrayMatMult();
+    arrMatMult();
 
     return 0;
 }
