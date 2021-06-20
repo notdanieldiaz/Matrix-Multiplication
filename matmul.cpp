@@ -45,6 +45,10 @@ void intbMM() {
     }
 }
 
+void arrMatMult() {
+}
+
+
 int main() {
     // MatMul Rules
     // 1)  Scalar: Multiply scalar by all indices in the matrix. 
@@ -65,7 +69,9 @@ int main() {
     /* Mult-Dim array method */
     /* Vector Method */
     
-    intbMM();
+    //intbMM();
+    
+    arrayMatMult();
 
     return 0;
 }
