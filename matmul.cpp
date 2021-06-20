@@ -1,5 +1,7 @@
 #include <iostream>
 #include <iomanip>
+#include <vector>
+
 /* -- Getting Basic int MatMul to work -- */
 void intbMM() {
     int buffer_1[3][2], buffer_2[3][2];
@@ -45,9 +47,19 @@ void intbMM() {
     }
 }
 
+void vectorbasic() {
+    vector<vector<int>> mat1;
+}
+
 void arrMatMult() {
     // Variable length arrays aren't allowed! 2-dim arrays will not work...
     // [G++ -Pedantic]: ISO C++ forbids variable length array 'mat1'
+    
+    // As a 2-dim array is a list of lists: a vector of a vector is the same idea.
+    std::vector<std::vector<double>> mat1, mat2;
+
+
+
 }
 
 
